@@ -1,5 +1,3 @@
-// CODE EXPLAINED channel
-
 // Select the Elements
 const clear = document.querySelector(".clear");
 const dateElement = document.getElementById("date");
@@ -69,7 +67,7 @@ function addToDo(toDo, id, done, trash) {
             <li class="item">
             <i class="fa ${DONE} co" job="complete" id="${id}"></i>
             <p class="text ${LINE}">${toDo}</p>
-            <i class="fas fa-trash-alt de" job="delete" id="${id}"></i>
+            <i class="fa fa-trash de" job="delete" id="${id}"></i>
           </li>`;
 
   // Where to place item in list
